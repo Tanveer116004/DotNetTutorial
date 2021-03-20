@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>DotNetTutorial.Program</StartupObject>
+    <StartupObject>DotNetTutorial.Program8</StartupObject>
   </PropertyGroup>
 
 </Project>

@@ -39,6 +39,17 @@ namespace DotNetTutorial
             }
         }
 
+        public void MultiDimensionArray() {
+            int[,] intArray = new int[2, 5] { { 1, 5, 3, 6, 8 }, { 2, 5, 3, 8, 6 } };
+            for(int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 5; j++) {
+                    Console.WriteLine("Value of "+i+" & "+j+" is :"+intArray[i,j]);
+                }
+            }
+        }
+
+
         public void Example() {
             //ArrayExample();
             convertSingleLineInputToArray();
